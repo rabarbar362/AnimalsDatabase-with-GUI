@@ -1,0 +1,103 @@
+2018-06-15 20:54:32,159 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-06-15 20:54:32,278 [    119]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-181.5281.24, 12 Jun 2018 14:32) 
+2018-06-15 20:54:32,278 [    119]   INFO -        #com.intellij.idea.Main - OS: Linux (4.14.48-2-manjaro, amd64) 
+2018-06-15 20:54:32,278 [    119]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-1136-b39 (JetBrains s.r.o) 
+2018-06-15 20:54:32,278 [    119]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b39 (OpenJDK 64-Bit Server VM) 
+2018-06-15 20:54:32,281 [    122]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.classpath.index.enabled=false -Didea.config.path=/home/basia/IdeaProjects/Animals_DB_with_gui/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/home/basia/IdeaProjects/Animals_DB_with_gui/build/idea-sandbox/plugins -Didea.required.plugins.id=com.rabarbar.Animals_DB_with_gui -Didea.system.path=/home/basia/IdeaProjects/Animals_DB_with_gui/build/idea-sandbox/system -Dsun.awt.disablegrab=true -XX:MaxPermSize=250m -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=PL -Duser.language=pl -Duser.variant -ea 
+2018-06-15 20:54:32,281 [    122]   INFO -        #com.intellij.idea.Main - ext: /home/basia/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbrex8u152b1136.39_linux_x64/jre/lib/ext: [localedata.jar, cldrdata.jar, dnsns.jar, sunjce_provider.jar, meta-index, sunpkcs11.jar, jfxrt.jar, nashorn.jar, jaccess.jar, sunec.jar, zipfs.jar] 
+2018-06-15 20:54:32,281 [    122]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2018-06-15 20:54:32,297 [    138]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 16 ms 
+2018-06-15 20:54:33,134 [    975]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2018-06-15 20:54:33,134 [    975]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2018-06-15 20:54:49,823 [  17664]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@1e16a945[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@2576793a 
+2018-06-15 20:54:49,842 [  17683]   INFO - .intellij.idea.IdeaApplication - WM detected: Xfwm4 
+2018-06-15 20:54:50,904 [  18745]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-06-15 20:54:51,540 [  19381]   INFO - llij.ide.plugins.PluginManager - 35 plugins initialized in 1514 ms 
+2018-06-15 20:54:51,541 [  19382]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.3.0), Ant Support (1.0), Bytecode Viewer (0.1), CVS Integration (11), Copyright (8.1), Coverage (181.5281.24), Eclipse Integration (3.0), EditorConfig (181.5281.24), Git Integration (8.1), GitHub (181.5281.24), Gradle (181.5281.24), Groovy (9.0), I18n for Java (181.5281.24), IDEA CORE (181.5281.24), IntelliLang (8.0), JUnit (1.0), Java Bytecode Decompiler (181.5281.24), Java Stream Debugger (181.5281.24), JavaFX (1.0), Kotlin (1.2.31-release-IJ2018.1-1), Maven Integration (181.5281.24), Mercurial Integration (10.0), Plugin DevKit (1.0), Properties Support (181.5281.24), Settings Repository (181.5281.24), Smali Support (1.0), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), UI Designer (181.5281.24), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (181.5281.24) 
+2018-06-15 20:54:51,541 [  19382]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Plugin display name here (1.0-SNAPSHOT) 
+2018-06-15 20:54:53,040 [  20881]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/basia/IdeaProjects/Animals_DB_with_gui/build/idea-sandbox/system/caches/names.dat' does not exist 
+2018-06-15 20:54:53,042 [  20883]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=435; buffer=10; max=435 
+2018-06-15 20:54:53,068 [  20909]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/basia/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.1.5/e1e20861201ac09734f77b9174e7c2465a611172/ideaIC-2018.1.5/bin/linux/fsnotifier64 
+2018-06-15 20:54:53,089 [  20930]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-06-15 20:54:53,971 [  21812]   WARN - nSystem.impl.ActionManagerImpl - keymap "Xcode" not found [Plugin: Git4Idea] 
+2018-06-15 20:54:54,146 [  21987]   WARN - nSystem.impl.ActionManagerImpl - keymap "Xcode" not found [Plugin: hg4idea] 
+2018-06-15 20:54:54,230 [  22071]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2018-06-15 20:54:54,230 [  22071]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2018-06-15 20:54:54,450 [  22291]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.OptionsTopHitProvider$Activity@648bb795 
+2018-06-15 20:54:54,568 [  22409]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-06-15 20:54:54,597 [  22438]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2018-06-15 20:54:54,640 [  22481]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-06-15 20:54:55,006 [  22847]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:320, number of extensions:44 
+2018-06-15 20:54:55,016 [  22857]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:6 
+2018-06-15 20:54:55,112 [  22953]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:94, number of extensions:49 
+2018-06-15 20:54:55,114 [  22955]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2018-06-15 20:54:55,648 [  23489]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:XML,kotlin_builtins,JAVA,KJSM,Kotlin,Groovy,CLASS,Properties,HTML 
+2018-06-15 20:54:56,157 [  23998]   INFO - plication.impl.ApplicationImpl - 89 application components initialized in 6137ms 
+2018-06-15 20:54:56,176 [  24017]   INFO - pl$FileIndexDataInitialization - Initialization done:1160 
+2018-06-15 20:54:56,184 [  24025]   INFO - .intellij.idea.IdeaApplication - App initialization took 25348 ms 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.kotlin loaded 771 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.android loaded 252 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - org.intellij.groovy loaded 176 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.idea.maven loaded 67 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - CVS loaded 40 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.settingsRepository loaded 31 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - com.intellij.properties loaded 28 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - com.intellij.tasks loaded 22 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - Git4Idea loaded 18 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - XPathView loaded 18 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - hg4idea loaded 17 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - AntSupport loaded 16 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - Subversion loaded 15 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.yaml loaded 13 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - com.intellij.uiDesigner loaded 12 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.javaFX loaded 11 classes 
+2018-06-15 20:54:56,187 [  24028]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.github loaded 10 classes 
+2018-06-15 20:54:56,188 [  24029]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.gradle loaded 9 classes 
+2018-06-15 20:54:56,188 [  24029]   INFO - llij.ide.plugins.PluginManager - DevKit loaded 9 classes 
+2018-06-15 20:54:56,188 [  24029]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.java.decompiler loaded 5 classes 
+2018-06-15 20:54:56,188 [  24029]   INFO - llij.ide.plugins.PluginManager - com.android.tools.idea.smali loaded 5 classes 
+2018-06-15 20:54:56,188 [  24029]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.idea.eclipse loaded 2 classes 
+2018-06-15 20:54:56,188 [  24029]   INFO - llij.ide.plugins.PluginManager - Coverage loaded 1 classes 
+2018-06-15 20:54:56,188 [  24029]   INFO - llij.ide.plugins.PluginManager - com.intellij.copyright loaded 1 classes 
+2018-06-15 20:54:56,290 [  24131]   INFO - exImpl$StubIndexInitialization - Initialization done:113 
+2018-06-15 20:54:57,099 [  24940]   INFO - pi.util.registry.RegistryValue - Registry value 'java.completion.argument.hints' has changed to 'false" 
+2018-06-15 20:54:57,100 [  24941]   INFO - pi.util.registry.RegistryValue - Registry value 'java.completion.argument.hints.internal' has changed to 'false" 
+2018-06-15 20:54:57,139 [  24980]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2018-06-15 20:54:57,919 [  25760]   INFO - j.ide.ui.OptionsTopHitProvider - 1245 ms spent to cache options in application 
+2018-06-15 20:54:58,952 [  26793]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@496e34cd 
+2018-06-15 20:54:58,973 [  26814]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-06-15 20:55:00,268 [  28109]   WARN - dea.updater.SdkComponentSource - File /home/basia/.android/repositories.cfg could not be loaded. 
+2018-06-15 20:55:00,269 [  28110]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-06-15 20:55:00,502 [  28343]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2018-06-15 20:55:01,296 [  29137]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2018-06-15 20:55:01,307 [  29148]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@6cda9171 
+2018-06-15 20:55:01,783 [  29624]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2018-06-15 20:55:01,807 [  29648]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@20e8874a 
+2018-06-15 20:55:01,816 [  29657]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.actions.GotoClassPresentationUpdater@3fb28540 
+2018-06-15 20:55:02,252 [  30093]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2018-06-15 20:55:02,607 [  30448]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2018-06-15 20:55:02,938 [  30779]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-06-15 20:55:02,939 [  30780]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-06-15 20:55:02,939 [  30780]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-06-15 20:55:03,041 [  30882]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-06-15 20:55:03,044 [  30885]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-06-15 20:55:03,048 [  30889]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2018-06-15 20:55:03,051 [  30892]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-06-15 20:55:03,057 [  30898]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-06-15 20:55:03,063 [  30904]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-06-15 20:55:03,067 [  30908]   INFO - plication.impl.ApplicationImpl - Write action Statistics:
+Event number:     23
+Total time spent: 1559ms
+Average duration: 67ms
+Median  duration: 47ms
+Max  duration:    528ms (it was 'write action (class com.intellij.openapi.application.WriteAction)') 
+2018-06-15 20:55:03,067 [  30908]   INFO - plication.impl.ApplicationImpl - AnAction.update() Statistics:
+Event number:     0
+Total time spent: 0ms
+Average duration: 0ms
+Median  duration: 0ms
+Max  duration:    0ms (it was 'null') 
+2018-06-15 20:55:03,067 [  30908]   INFO - plication.impl.ApplicationImpl - Global instance threads created counter = 5; ProcessIOExecutorService threads: 3 
+2018-06-15 20:55:03,077 [  30918]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-06-15 20:55:03,082 [  30923]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
