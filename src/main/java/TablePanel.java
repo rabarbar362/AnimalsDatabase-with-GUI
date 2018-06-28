@@ -1,14 +1,16 @@
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
 
 public class TablePanel extends JPanel implements ActionListener {
 
-    private JButton update_btn, delete_btn;
+    private JButton update_btn, delete_btn, exportCSV_btn;
     private JTable animalsTable;
+    private AnimalsList animals;
 
     public TablePanel() {
         this.setVisible(true);
@@ -18,7 +20,7 @@ public class TablePanel extends JPanel implements ActionListener {
         title = BorderFactory.createTitledBorder("Database");
         this.setBorder(title);
 
-        AnimalsList animals = new AnimalsList();
+        animals = new AnimalsList();
         ArrayList AnimalsDB = animals.getAnimalList();
 
         AnimalsTableModel model = new AnimalsTableModel(AnimalsDB);
@@ -35,6 +37,10 @@ public class TablePanel extends JPanel implements ActionListener {
         delete_btn = new JButton("Delete row");
         delete_btn.addActionListener(this);
         this.add(delete_btn);
+
+        exportCSV_btn = new JButton("Export database to .csv");
+        exportCSV_btn.addActionListener(this);
+        this.add(exportCSV_btn);
     }
 
     @Override
@@ -47,10 +53,10 @@ public class TablePanel extends JPanel implements ActionListener {
         } else if (source == delete_btn) {
             int i = animalsTable.getSelectedRow();
             int id = (int) animalsTable.getModel().getValueAt(i,0);
-            System.out.println("Selected row: " + i);
-            System.out.println("Selected row's id: " + id);
             Database.delete(id);
             AnimalsTableModel.updateModel(animalsTable);
+        } else if (source == exportCSV_btn) {
+            Database.generateCSV();
         }
     }
 }

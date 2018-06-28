@@ -1,5 +1,10 @@
 import javax.swing.*;
+import java.io.IOException;
 import java.sql.*;
+import com.opencsv.CSVWriter;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Database {
 
@@ -69,5 +74,36 @@ public class Database {
             } catch (SQLException e) {
                 System.out.println(e.getMessage());
             }
+    }
+
+    public static void generateCSV() {
+        List<String[]> AnimalsListStrings = new ArrayList<>();
+        String sql = "SELECT * FROM animals";
+
+        try (Connection conn = Database.connectToDB();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+            while (rs.next()) {
+                int id = rs.getInt(1);
+                String name = rs.getString(2);
+                int year = rs.getInt(3);
+                String species = rs.getString(4);
+
+                String idString = Integer.toString(id);
+                String yearString = Integer.toString(year);
+                String[] animal = new String[]{idString, name, yearString, species};
+                AnimalsListStrings.add(animal);
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            CSVWriter csvWriter = new CSVWriter(new FileWriter("animals.csv"));
+            csvWriter.writeAll(AnimalsListStrings);
+            csvWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
+}
